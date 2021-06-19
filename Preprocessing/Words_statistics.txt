@@ -2,6 +2,7 @@ The total number of words is 10570186
 The number of unique words is 124055
 The total number of lemmas is 82994
 The total number of entities is 479275
+------------------------------------------------------------------------------------
 Average word length in chars: 
 2 characters: 3137067
 4 characters: 1736129
@@ -57,6 +58,7 @@ Average word length in chars:
 32 characters: 1
 53 characters: 1
 40 characters: 1
+------------------------------------------------------------------------------------
 Average word length in syllables: 
 1 syllables: 5655862
 2 syllables: 3161344
@@ -81,6 +83,7 @@ Average word length in syllables:
 28 syllables: 10
 24 syllables: 2
 23 syllables: 1
+------------------------------------------------------------------------------------
 List of words ordered by frequency: 
 să: 316007
 nu: 303542
