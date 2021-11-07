@@ -37,7 +37,7 @@ class AGStatistics:
         self.corpus = corpus
         self.showProgress = showCurrentPosition  # If set to 'False', no progress will be shown
         self.nlp = nlpModel  # The spacy model which will be used
-        self.myPyphen = pyphenModel  # The pyphen model which will be used
+        self.pyphen = pyphenModel  # The pyphen model which will be used
 
     # Generate all statistics in output files
     def generate_statistics(self):
@@ -57,9 +57,6 @@ class AGStatistics:
                     else:
                         self.punctuations[token.text] += 1
                 else:
-                    WSG.get_lemmas(self, token)
-                    WSG.get_words(self, token)
-                    WSG.get_word_len_chars(self, token)
-                    WSG.get_word_len_syl(self, token)
+                    WSG.get_words_statistics(self, token)
         SW.write_statistics(self)
         print("All done")
